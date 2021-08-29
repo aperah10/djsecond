@@ -16,8 +16,8 @@ INSTALLED_APPS += [
     'customer',
     'product',
     'restapi',
-    # 'corsheaders',
+    'corsheaders',
 ]
 
-# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
 

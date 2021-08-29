@@ -5,7 +5,7 @@ with open(os.path.join(BASE_DIR,'secret.txt')) as f :
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['secaperah.herokuapp.com','aperahwork.herokuapp.com']
+ALLOWED_HOSTS = ['secaperah.herokuapp.com',]
 
 INSTALLED_APPS += [
    'rest_framework',
@@ -14,9 +14,9 @@ INSTALLED_APPS += [
     'customer',
     'product',
     'restapi',
-    # 'corsheaders',
+    'corsheaders',
 ]
 
-
+CORS_ORIGIN_ALLOW_ALL = True
 
 

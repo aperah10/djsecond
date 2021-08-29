@@ -125,4 +125,4 @@ MEDIA_URL='/media/'
 MEDIA_ROOT= BASE_DIR/'media' 
 
 # !WHITENOISE ADDTIONAL SETTIG FOR STORAGE 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
